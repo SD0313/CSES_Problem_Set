@@ -8,6 +8,7 @@ public class Name{
 
         f.close();out.close();
     }
-
+    static int nextInt(StringTokenizer st){return Integer.parseInt(st.nextToken());}
+    static long nextLong(StringTokenizer st){return Long.parseLong(st.nextToken());}
 
 }
