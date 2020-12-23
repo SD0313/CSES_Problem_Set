@@ -56,9 +56,6 @@ public class TwoSets{
                 out.print(i+ " ");
             }
             out.println("");
-
-//            out.println(sum1);
-//            out.println(sum2);
         }
         else{
             out.println("NO");
