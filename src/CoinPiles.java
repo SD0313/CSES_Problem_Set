@@ -10,22 +10,15 @@ public class CoinPiles{
             int a = nextInt(st);
             int b = nextInt(st);
             int count = 0;
-            while (true) {
-                if (a/b == 2){
-                    count += Math.max(a/2, b/2);
-                    break;
-                }
-                if (a > b) {
-                    b -= 2;
-                    a -= 1;
-                }
-                if (b > a){
-                    a -= 2;
-                    b -= 1;
-                }
-                count++;
+            int max = Math.max(a, b);
+            int min = Math.min(a, b);
+            if ((a+b)%3 != 0 || max/2 > min){
+                out.println("NO");
             }
-            out.println(count);
+            else{
+                out.println("YES");
+            }
+
         }
 
         f.close();out.close();
