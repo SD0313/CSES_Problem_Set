@@ -9,7 +9,6 @@ public class CoinPiles{
             StringTokenizer st = new StringTokenizer(f.readLine());
             int a = nextInt(st);
             int b = nextInt(st);
-            int count = 0;
             int max = Math.max(a, b);
             int min = Math.min(a, b);
             if ((a+b)%3 != 0 || max/2 > min){
