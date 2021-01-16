@@ -1,4 +1,4 @@
-/****************************
+package IntroductoryProblems; /****************************
  * Sauman Das
  * December 24, 2020
  * CSES Problem Set
