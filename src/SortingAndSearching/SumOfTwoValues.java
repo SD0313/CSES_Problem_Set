@@ -2,7 +2,7 @@ package SortingAndSearching;
 
 import java.util.*;
 import java.io.*;
-//two pointers practice
+//two pointers method implemented
 public class SumOfTwoValues{
     static BufferedReader f = new BufferedReader(new InputStreamReader(System.in));
     static PrintWriter out = new PrintWriter(System.out);
